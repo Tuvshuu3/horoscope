@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+body {
+  background-image: url("../assets/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.SmallBox {
+  width: 256px;
+  height: 84px;
+  display: flex;
+  border: white solid 1px;
+  justify-content: space-around;
+}
+
+.checkTextCon {
+  display: flex;
+  margin-top: 50px;
+  height: 43px;
+}
+
+.textCon {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.bigText {
+  color: #9499c3;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  transition: color 0.2s;
+}
+
+.bigText:hover {
+  color: white;
+}
+
+.smallText {
+  color: rgba(148, 153, 195, 0.5);
+  font-size: 14px;
+  padding-top: 8px;
+}
+
+.smallText:hover {
+  color: red;
+}
+
+.checkIcon {
+  height: 24px;
+}
+
+.leftBar {
+  margin-left: 16px;
+  padding: 55px;
+  width: 265px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ship {
+  height: 760px;
+  width: 455px;
+  margin-right: 50px;
+}
+
+.recording_text {
+  display: flex;
+  justify-content: center;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 12px;
+  width: auto;
+  left: 118px;
+  top: 648px;
+  color: #ffffff;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #9499c3;
+}
+
+.LeftSide {
+  width: 380px;
+  height: 800px;
+}
+
+.Sides {
+  display: flex;
+  gap: 100px;
+}
+
+.Sign {
+  grid-column-gap: 30px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Zurhai {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 1400px;
+  height: 800px;
+  align-items: center;
+}
+
+.Subtitle {
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9499c3;
+}
+
+.Sign_select {
+  height: 36px;
+  width: 160px;
+  border-radius: 5px;
+  color: #9499c3;
+  background-color: white;
+  font-size: 27px;
+}
+
+.Arrow {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.arrow_place {
+  position: relative;
+  right: 500px;
+  top: 250px;
+}
+
+.ZurhaiSide {
+  width: 1400px;
+  display: flex;
+  height: 800px;
+  align-items: center;
+}
+
+.Button_position {
+  display: flex;
+  justify-content: center;
+  margin-top: 59px;
+}
+
+.Systems_button {
+  height: 72px;
+  width: 134px;
+  left: 56px;
+  top: 820px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #1a1c48;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  box-shadow: 0px 2px 56px 0px #00000026;
+}
+
+.Cabin_button {
+  height: 56px;
+  width: 114px;
+  left: 189px;
+  top: 828px;
+  border-radius: [object Object]px;
+  border: 1.5px solid #9499c380;
+  background-color: #1a1c4803;
+  color: white;
+  box-shadow: 0px 2px 56px 0px #00000026;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.box {
+  height: 190px;
+  width: 176px;
+  background-color: #ffffff05;
+  border-radius: 4px;
+  opacity: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+  border: dashed #f3f4f9 1px;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 79px;
+  height: 51px;
+}
+
+.title_circle {
+  height: 12px;
+  width: 100px;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.kotae {
+  height: 32px;
+  width: 158px;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.reverse {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.green {
+  color: #96e27b;
+}
+.brown {
+  color: #ad7a4b;
+}
+.lime {
+  color: #74ccbc;
+}
+.red {
+  color: #c65858;
+}
+.STATS {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.Position {
+  position: relative;
+  left: 170px;
+  width: 75%;
+}
+.EVERYTHING {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.motivation {
+  height: 172px;
+  width: 627px;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-top: 215px;
+}
+
+.loadingCon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 7px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
